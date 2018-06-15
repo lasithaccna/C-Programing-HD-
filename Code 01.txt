@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void main()
+{
+
+printf("University of Moratuwa \n");
+printf("Katubedda, \n");
+printf("Moratuwa, \n");
+printf("Sri Lanka \n");
+printf("---------------------- \n");
+printf("www.mrt.ac.lk\n");
+
+/*
+printf("University of Moratuwa \n Katubedda, \n Moratuwa, \n Sri Lanka \n ---------------------- \n www.mrt.ac.lk\n");
+*/
+}
+
+
+
+
+
+
+
