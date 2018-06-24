@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+                   int a, b;
+	a = b = 2;
+	sum1 = a + (++b);
+	sum2 = a + (b++);
+
+	// Final Answer a=2,b=4,sum1=5,sum2=5
+}
