@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main(){
+    float num1,num2;
+    int opt;
+
+    printf("Enter Your First Number- ");
+    scanf("%f",&num1);
+    printf("Enter Your Second Number- ");
+    scanf("%f",&num2);
+
+    printf("       Mathematical Operation       \n");
+    printf("------------------------------------\n");
+    printf("1 - Add\n2 - Subtract\n3 - Multiply\n4 - Divide\n");
+    printf("------------------------------------\n");
+    printf("Enter Your Choice- ");
+    scanf("%d",&opt);
+
+    switch(opt){
+
+    case 1 :printf("Answer Is %f",num1+num2);break;
+    case 2 :printf("Answer Is %f",num1-num2);break;
+    case 3 :printf("Answer Is %f",num1*num2);break;
+    case 4 :printf("Answer Is %f",num1/num2);break;
+    default : printf("Invalid Input ");
+
+    }
+
+    return 0;
+}

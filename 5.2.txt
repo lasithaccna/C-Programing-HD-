@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+int main(){
+   int counter, sum;
+    sum = 0;
+    for(counter=1; counter <= 100; (counter += 2)) //increment by 2
+    {
+    sum += counter;
+    }
+    printf("Total : %d", sum);
+    return 0;
+}
